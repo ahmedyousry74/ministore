@@ -1,0 +1,136 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+}
+body{
+  overflow-x: hidden;
+}
+/* navbar */
+.navbar .navbar-brand{
+  color:#777;
+  font-weight:bold;
+  font-size:30px;
+}
+.navbar .navbar-brand span{
+  color:#E53637;
+  font-size:14px;
+  letter-spacing: 5px;
+}
+.navbar li .nav-link{
+  font-size:18px;
+  font-weight:bold;
+}
+@media(max-width:991px){
+  .navbar .navbar-nav{
+    text-align: right;
+    margin-top:-45px;
+    display: block;
+  }
+}
+/* navbar */
+
+/* start form */
+.sign img{
+  object-fit:cover;
+  max-width:100%;
+}
+.sign form{
+  padding:50px 70px;
+  border-radius: 10px;
+}
+.sign form h2{
+  color:#444;
+  font-size:25px;
+  font-weight:bold;
+  text-align:center;
+  margin-bottom:30px;
+}
+.sign form h2 span{
+  color:#E53637;
+  font-size:15px;
+  font-weight:bold;
+  letter-spacing: 2px;
+}
+.sign form{
+  position: relative;
+}
+.sign form label{
+  margin:0;
+  font-size:14px;
+  color:#888
+}
+.sign form input{
+  border:none;
+  border-bottom:1px #ccc solid;
+  outline:none;
+}
+.sign form .eye{
+  position:absolute;
+  right:85px;
+  top:300px;
+  color:#444;
+  cursor: pointer; 
+}
+.sign form .form-check{
+  float:left
+}
+.sign form .form-check label{
+  font-size:14px;
+}
+.sign form .form-forget{
+  float:right
+}
+.sign form a:last-of-type{
+  display:block;
+  text-align: center;
+  color:#888;
+  font-size:14px;
+}
+.sign form .form-forget a{
+  text-decoration:none;
+  color:#888;
+  font-size:14px;
+}
+.sign form .form-forget a:hover{
+  text-decoration: underline;
+}
+.sign form button{
+  margin-top:30px;
+  margin-bottom:30px;
+  width:100%;
+  height:35px;
+  border:none;
+  border-radius:15px;
+  background-color:#E53637;
+  color:#fff;
+  outline:none;
+}
+.sign form button:hover{
+  background-color:#e53636de
+}
+.sign form li{
+  margin:20px 0px;
+  display:inline-block;
+  height:30px;
+  width:30px;
+  line-height:30px;
+  border-radius:50%;
+  color:#fff;
+  font-size:15px;
+  cursor: pointer
+}
+.sign form li.face{
+  background:#3b5998
+}
+@media(max-width:991px){
+  .sign form{
+    padding:50px 30px;
+  }
+  .sign form h2{
+    font-size:20px;
+    margin-bottom:33px;
+  }
+  .sign form .eye{
+    right:50px;
+  }
+}

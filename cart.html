@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta sharset="utf-8">
+        <title>Mini Stroe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+         <link rel="stylesheet" href="fonts/all.min.css">
+         <link rel="stylesheet" href="fonts/fontawesome.min.css">
+         <link rel="stylesheet" href="css/animate.css">
+         <link rel="stylesheet" href="css/owl.carousel.min.css">
+         <link rel="stylesheet" href="css/owl.theme.default.min.css">
+         <link rel="stylesheet" href="css/style.css">
+         <script src="jquery/jquery-3.5.1.js"></script>
+         <script src="script/bootstrap.min.js"></script>
+         <script src="script/wow.min.js"></script>
+         <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+         <script src="script/countUp.js"></script>  
+         <script src="script/fontawesome.js"></script>
+         <script src="script/owl.carousel.min.js"></script>
+         <script src="script/all.min.js"></script> 
+         
+
+
+    </head>
+    <body>
+        <!-- start navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light lg-light" id="navbar1">
+            <div class="container">
+                <a class="navbar-brand" href="#">MINI <span>Store</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav nav-tabs ml-auto">
+                    <li class="nav-item  ">
+                    <a class="nav-link" href="index.html" >Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="men.html">Men</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="women.html">Women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kids.html">Kids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                  
+                  <ul class="navbar-nav nav-tabs ml-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="log.html">log in</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="signup.html">sign up</a>
+                      </li>
+                      <a href="cart.html">
+                        <i class="fas fa-cart-plus"></i>
+                        </a>
+                   </ul>
+                </div>
+            </div>
+          </nav>
+        <!-- end navbar -->
+
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                  <th scope="col">id</th>
+                  <th scope="col">name</th>
+                  <th scope="col">quantity</th>
+                  <th scope="col">size</th>
+                  <th scope="col">price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>
+                    <div class="cart-info">
+                        <img src="images/men/11.jpg" width="80px" height="80px">
+                        <div>
+                            <p>Chino skinny pants</p>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                  </td>
+                  <td>
+                    <input type="number" value="1">
+                  </td>
+                  <td>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose</option>
+                        <option>small</option>
+                        <option>large</option>
+                        <option>medium</option>
+                      </select>
+                  </td>
+                  <td>250$</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>
+                    <div class="cart-info">
+                        <img src="images/men/13.jpg" width="80px" height="80px">
+                        <div>
+                            <p>Chino skinny pants</p>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                  </td>
+                  <td>
+                    <input type="number" value="1">
+                  </td>
+                  <td>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose</option>
+                        <option>small</option>
+                        <option>large</option>
+                        <option>medium</option>
+                      </select>
+                  </td>
+                  <td>250$</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>
+                      <div class="cart-info">
+                          <img src="images/men/15.jpg" width="80px" height="80px">
+                          <div>
+                              <p>Chino skinny pants</p>
+                              <a href="">Remove</a>
+                          </div>
+                      </div>
+                    </td>
+                    <td>
+                      <input type="number" value="1">
+                    </td>
+                    <td>
+                      <select id="inputState" class="form-select">
+                          <option selected>Choose</option>
+                          <option>small</option>
+                          <option>large</option>
+                          <option>medium</option>
+                        </select>
+                    </td>
+                    <td>250$</td>
+                </tr>
+
+              </tbody>
+          </table>
+
+
+
+                
+        <!-- Form -->
+                <form class="needs-validation" novalidate>
+
+                  <div class="form-row">
+
+                    <div class="col-md-6 mb-3">
+                      <label for="validationCustom01">Full Name</label>
+                      <input type="text" class="form-control" id="validationCustom01" value="" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                      <div class="invalid-feedback">
+                        Please provide a Name.
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                      <label for="validationCustom02">Address</label>
+                      <input type="text" class="form-control" id="validationCustom02" value="" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                      <div class="invalid-feedback">
+                        Please provide an Address.
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="form-row">
+
+                    <div class="col-md-6 mb-3">
+                      <label for="validationCustom03">City</label>
+                      <input type="text" class="form-control" id="validationCustom03" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid city.
+                      </div>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                      <label for="validationCustom05">Phone Number</label>
+                      <input type="number" class="form-control" id="validationCustom05" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid Number.
+                      </div>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <button class="btn btn-primary" type="submit">Shop Now</button>
+
+                </form>
+                
+        <!-- Form -->
+
+
+                <!-- featured items -->
+                <div class="featured">
+                  <h5 class="text-center">Featured Items</h5>
+                  <div class="container">
+                      <div class="loop owl-carousel owl-theme">
+
+                        <div class="item card">
+                          <div class="card-img">
+                            <img src="images/MEN1.jpg" alt="">
+                          </div>
+                          <div class="card-title">
+                            <h2 class="h1">T-Shirt</h2>
+                          </div>
+                          <p>price: <span>25$</span> &nbsp; <span>50$</span></p>
+                          <div class="rating">
+                            <span> <i class="fas fa-star"></i> </span>
+                            <span> <i class="fas fa-star"></i> </span>
+                            <span> <i class="fas fa-star"></i> </span>
+                            <span> <i class="fas fa-star"></i> </span>
+                            <span> <i class="fas fa-star"></i> </span>
+                          </div>
+                        </div>
+
+                        <div class="item card">
+                          <div class="card-img">
+                            <img src="images/MEN2.jpg" alt="">
+                          </div>
+                          <div class="card-title">
+                            <h2 class="h1">T-Shirt</h2>
+                          </div>
+                          <p>price: <span>50$</span> &nbsp; <span>60$</span></p>
+                          <div class="rating">
+                            <span> <i class="fas fa-star"></i> </span>
+                            <span> <i class="fas fa-star"></i> </span>
+                            <span> <i class="fas fa-star"></i> </span>
+                            <span> <i class="fas fa-star"></i> </span>
+                            <span> <i class="fas fa-star"></i> </span>
+                          </div>
+                        </div>
+
+                        <div class="item card">
+                          <div class="card-img">
+                            <img src="images/MEN3.jpg" alt="">
+                          </div>
+                          <div class="card-title">
+                            <h2 class="h1">T-Shirt</h2>
+                          </div>
+                          <p>price: <span>125$</span> &nbsp; <span>150$</span></p>
+                          <div class="rating">
+                            <span> <i class="fas fa-star"></i> </span>
+                            <span> <i class="fas fa-star"></i> </span>
+                            <span> <i class="fas fa-star"></i> </span>
+                            <span> <i class="fas fa-star"></i> </span>
+                            <span> <i class="fas fa-star"></i> </span>
+                          </div>
+                        </div>
+
+
+
+                      </div>
+                  </div>
+                </div>
+                <!-- featured items -->
+    
+
+         <!-- start footer -->
+      <div class="footer">
+        <div class="container">
+        <div class="row">
+          <div class="left col-sm-12 col-lg-3">
+            <a class="navbar-brand" href="#">MINI <span>Store</span></a>
+            <p class="pa">The customer is at the heart of our unique business model, which includes design.</p>
+          </div>
+          <div class="left col-sm-12 col-lg-3">
+            <h2>Quick Links</h2>
+            
+            <p>Home</p>
+            <p>Men</p>
+            <p>WOMEN</p>
+            <p>Kids</p>
+            <p>Contact</p>
+            <p>ABOUT</p>
+            
+          </div>
+          <div class="left col-sm-12 col-lg-3">
+            <h2>Quick Links</h2>
+            
+              <p>HOW TO SHOP</p>
+              <p>FAQ</p>
+              <p>TEAM</p>
+            
+          </div>
+          <div class="left col-sm-12 col-lg-3">
+            <h2>Follow Us</h2>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr>
+    <div class="copy">Copyright &copy <span>AHMED YOUSRY</span></div>
+              <!-- scroll top -->
+
+      <div id="scroll">
+        <i class="fa fa-arrow-up scrol"></i>
+      </div>
+    </div>
+    <!-- end footer -->
+
+
+   
+
+    <script>
+    
+      $('.loop').owlCarousel({
+        center: true,
+        items:2,
+        loop:true,
+        margin:10,
+        responsive:{
+            600:{
+                items:4
+            }
+        }
+      });
+
+
+                // Example starter JavaScript for disabling form submissions if there are invalid fields
+                (function() {
+                  'use strict';
+                  window.addEventListener('load', function() {
+                    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                    var forms = document.getElementsByClassName('needs-validation');
+                    // Loop over them and prevent submission
+                    var validation = Array.prototype.filter.call(forms, function(form) {
+                      form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                          event.preventDefault();
+                          event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                      }, false);
+                    });
+                  }, false);
+                })();
+
+
+    </script>
+</body>
+</html>
